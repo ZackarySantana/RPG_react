@@ -1,5 +1,5 @@
 // Libraries
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 // Styles
@@ -24,16 +24,16 @@ const GameBox = styled.div`
 `;
 
 export default function RPG() {
-    return (
-        <Fragment>
-            <div id="background"></div>
-            <div id="middleground"></div>
-            <div id="foreground"></div>
-            <Background>
-                <GameBox>
-                    {/* Do game lol */}
-                </GameBox>
-            </Background>
-        </Fragment>
-    );
+	return (
+		<div style={{ position: "fixed" }}>
+			<div id="background"></div>
+			<div id="middleground"></div>
+			<div id="foreground"></div>
+			<Background>
+				<GameBox>
+					{/* Do game lol */}
+				</GameBox>
+			</Background>
+		</div>
+	);
 }
