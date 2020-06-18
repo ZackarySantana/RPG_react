@@ -31,7 +31,7 @@ export default function RPG() {
 			<div id="foreground"></div>
 			<Background>
 				<GameBox>
-					{/* Do game lol */}
+					{/* Do game lol test */}
 				</GameBox>
 			</Background>
 		</div>
