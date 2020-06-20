@@ -3,7 +3,8 @@
 		left: 0;
 		top: 0;
 	}
-	to { 
+
+	to {
 		left: -10000px;
 		top: -2000px;
 	}
@@ -12,26 +13,35 @@
 #background {
 	background: black url(./images/background.png) repeat 5% 5%;
 	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	z-index: -2;
-	
-    animation: STAR-MOVE 200s linear 0s infinite forwards;
+
+	animation: STAR-MOVE 200s linear 0s infinite forwards;
 }
 
 #middleground {
 	background: url(./images/midground.png) repeat 20% 20%;
 	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	z-index: -1;
-	
-    animation: STAR-MOVE 150s linear 0s infinite forwards;
+
+	animation: STAR-MOVE 150s linear 0s infinite forwards;
 }
 
 #foreground {
 	background: url(./images/foreground.png) repeat 35% 35%;
 	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	z-index: 0;
-    
-    animation: STAR-MOVE 100s linear 0s infinite forwards;
+
+	animation: STAR-MOVE 100s linear 0s infinite forwards;
 }
