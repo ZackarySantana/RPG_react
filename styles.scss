@@ -1,12 +1,17 @@
 @keyframes STAR-MOVE {
-	from {
+	0% {
 		left: 0;
 		top: 0;
 	}
 
-	to {
-		left: -10000px;
-		top: -2000px;
+	50% {
+		left: -1000px;
+		top: -200px;
+	}
+
+	100% {
+		left: 0;
+		top: 0;
 	}
 }
 
@@ -19,7 +24,7 @@
 	bottom: 0;
 	z-index: -2;
 
-	animation: STAR-MOVE 200s linear 0s infinite forwards;
+	animation: 20s infinite alternate STAR-MOVE;
 }
 
 #middleground {
@@ -31,7 +36,7 @@
 	bottom: 0;
 	z-index: -1;
 
-	animation: STAR-MOVE 150s linear 0s infinite forwards;
+	animation: 20s infinite alternate STAR-MOVE;
 }
 
 #foreground {
@@ -43,5 +48,5 @@
 	bottom: 0;
 	z-index: 0;
 
-	animation: STAR-MOVE 100s linear 0s infinite forwards;
+	animation: 20s infinite alternate STAR-MOVE;
 }
